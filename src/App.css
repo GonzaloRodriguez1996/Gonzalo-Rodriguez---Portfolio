@@ -1,0 +1,399 @@
+/*******              GLOBAL              *******/
+
+* {
+  margin: 0 auto;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+@font-face {
+  font-family: "Roundy Rainbows";
+  src: url("fonts/Roundy Rainbows.eot");
+  src: url("fonts/Roundy Rainbows.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Roundy Rainbows.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RoundyRainbows";
+  src: url("fonts/RoundyRainbows.svg#RoundyRainbows") format("svg"),
+    url("fonts/RoundyRainbows.ttf") format("truetype"),
+    url("fonts/RoundyRainbows.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+
+/*******           PRESENTATION           *******/
+.Presentation {
+  scroll-snap-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e8eaeb;
+}
+.Presentation h1 {
+  font-size: 2rem;
+  font-family: "Roundy Rainbows";
+  color: #2c456b;
+  padding-top: 6rem;
+  margin-left: 2rem;
+}
+
+#Presentation__img {
+  margin-top: 4rem;
+  margin-left: 5rem;
+  width: 150%;
+}
+
+.Presentation h2 {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 7rem;
+  font-family: "Roundy Rainbows";
+  letter-spacing: 2px;
+  color: #2c456b;
+  margin-left: 4rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1025px) {
+  .Presentation h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+
+  #Presentation__img {
+    margin-top: 3rem;
+    margin-left: 15rem;
+    width: 80%;
+  }
+
+  .Presentation h2 {
+    font-size: 1.4rem;
+    margin-left: 50vw;
+    margin-top: -1rem;
+  }
+}
+/*******           ABOUT ME              *******/
+.Aboutme {
+  scroll-snap-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(195, 241, 231);
+}
+
+.Aboutme h1 {
+  color: rgb(84, 150, 136);
+  font-size: 1.9rem;
+  padding-top: 6rem;
+  margin-left: 2rem;
+  font-family: "Roundy Rainbows";
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.Aboutme p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding-top: 5rem;
+  text-align: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 14%;
+}
+
+.Skills img {
+  width: 70%;
+  margin-left: 5rem;
+}
+
+@media screen and (min-width: 1025px) {
+  .Aboutme h1 {
+    font-size: 3rem;
+    margin-left: 6rem;
+  }
+
+  .Aboutme p {
+    font-size: 1.2rem;
+    padding-top: 10%;
+    padding-bottom: 16%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .p-container {
+    width: 60rem;
+  }
+
+  .Skills {
+    border-radius: 5px;
+    margin-left: 22rem;
+    margin-top: -12rem;
+    width: 30rem;
+    height: 3.6rem;
+  }
+
+  .Skills img {
+    width: 100%;
+    margin-top: 9rem;
+  }
+}
+
+/*******            PROYECTS           *******/
+
+.Proyects {
+  scroll-snap-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebb1a6;
+}
+
+.Proyects h1 {
+  font-size: 1.4rem;
+  color: #b85946;
+  font-family: "Roundy Rainbows";
+  padding-top: 8%;
+  margin-left: 2rem;
+  padding-bottom: 10%;
+}
+
+.Proyects-wrapper {
+  background-color: #e9cfbc;
+  border-radius: 50px;
+  border: solid #3a312a 4px;
+  box-shadow: 0 5px 40px rgba(113, 114, 48, 0.5);
+  width: 80%;
+  height: 70%;
+}
+
+.proyect h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.6rem;
+}
+
+.Description-wrapper {
+  background-color: #87796f;
+  border-radius: 8px;
+  border: solid #3a312a;
+  width: 24rem;
+  height: 7rem;
+  margin-top: -2rem;
+}
+.Description-wrapper p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.proyect ul li {
+  display: inline-flex;
+  margin-left: 20%;
+  margin-top: 3rem;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 1025px) {
+  .Proyects h1 {
+    font-size: 2rem;
+    padding-top: 4%;
+    padding-left: 4rem;
+    padding-bottom: 3%;
+  }
+
+  .Proyects-wrapper {
+    width: 50%;
+    height: 28rem;
+  }
+
+  .Description-wrapper {
+    width: 35rem;
+    height: 5rem;
+    margin-top: -2rem;
+  }
+
+  .Description-wrapper p {
+    margin-top: 1rem;
+  }
+
+  .proyect ul li {
+    margin-left: 25%;
+    margin-top: 0.6rem;
+  }
+}
+
+/*******            CONTACT ME          *******/
+
+.Contactme {
+  scroll-snap-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(245, 247, 157);
+}
+
+.Contactme h1 {
+  font-size: 1.3rem;
+  color: rgb(76, 77, 38);
+  font-family: "Roundy Rainbows";
+  padding-top: 7%;
+  margin-left: 1.3rem;
+  padding-bottom: 5%;
+}
+
+.Form-wrapper {
+  background-color: rgb(250, 250, 229);
+  width: 60%;
+  height: 55%;
+  margin-left: 1.3rem;
+  border: solid rgb(117, 117, 70) 4px;
+  border-radius: 20px;
+  box-shadow: 0 5px 40px rgba(113, 114, 48, 0.5);
+}
+
+form {
+  padding-top: 10px;
+  text-align: center;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+.inputText:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 1.7rem 1.2rem;
+  border: 2px solid #78788c;
+  border-radius: 5px;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #78788c;
+  color: #fff;
+}
+
+.Contactme h2 {
+  color: rgb(76, 77, 38);
+  font-size: 1rem;
+  margin-left: 49%;
+  padding-top: 8%;
+  padding-bottom: 11%;
+  font-family: "Roundy Rainbows";
+  letter-spacing: 2px;
+}
+.social-menu ul {
+  padding: 0px;
+  margin-left: 70%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.social-menu ul li {
+  list-style: none;
+  margin: 0 15px;
+
+  line-height: 60px;
+  transition: 0.6s;
+}
+
+.social-menu img {
+  width: 80%;
+  margin-bottom: 10%;
+  padding-top: 0.5rem;
+  border-radius: 40px;
+}
+
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 2.7rem;
+  height: 2.5rem;
+  border: solid rgb(117, 117, 70);
+  border-radius: 50%;
+  background-color: rgb(250, 250, 229);
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+  transform: translate(0, -10px);
+  color: #ffffff;
+}
+
+#IconsCredits {
+  font-size: smaller;
+  color: #a79e9e;
+  margin-top: 40vh;
+  margin-left: -1.2rem;
+}
+
+@media screen and (min-width: 1025px) {
+  .Contactme h1 {
+    font-size: 2.4rem;
+    padding-left: 6rem;
+  }
+  .Form-wrapper {
+    width: 35%;
+    height: 60%;
+    float: left;
+    margin-left: 10%;
+  }
+  .socialmenu-wrapper {
+    float: left;
+    width: 40rem;
+    margin-top: 12rem;
+    margin-left: 5rem;
+  }
+
+  .socialmenu-wrapper h2 {
+    font-size: 1.3rem;
+  }
+  form {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  button {
+    float: right;
+    padding: 10px 20px;
+    margin: 1.7rem 2.4rem;
+  }
+  #IconsCredits {
+    margin-top: 17vh;
+    margin-left: -8.3rem;
+  }
+}

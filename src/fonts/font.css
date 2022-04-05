@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'FranchiseFilled-Regular';
+  src: url('FranchiseFilled-Regular.svg#FranchiseFilled-Regular') format('svg'),
+       url('FranchiseFilled-Regular.ttf') format('truetype'),
+       url('FranchiseFilled-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FranchiseFilled';
+  src: url('FranchiseFilled.eot');
+  src: url('FranchiseFilled.eot?#iefix') format('embedded-opentype'),
+       url('FranchiseFilled.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
