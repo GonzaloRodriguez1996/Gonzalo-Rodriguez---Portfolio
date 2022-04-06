@@ -59,7 +59,7 @@ export default class ProyectCarousel extends Component {
             </div>
             <ul>
               <li>
-                <a href="https://react-e-commerce-sooty.vercel.app/">
+                <a href="https://react-e-commerce-sooty.vercel.app/Products">
                   <img src={linkicon} alt="link icon" width="80%" />
                 </a>
               </li>
@@ -81,7 +81,7 @@ export default class ProyectCarousel extends Component {
             </div>
             <ul>
               <li>
-                <a href="quiz-historia-argentina.vercel.app">
+                <a href="https://quiz-historia-argentina.vercel.app/">
                   <img src={linkicon} alt="link icon" width="80%" />
                 </a>
               </li>
