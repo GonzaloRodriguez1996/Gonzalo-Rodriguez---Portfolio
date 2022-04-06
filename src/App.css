@@ -49,7 +49,7 @@ html, body {
   font-size: 1.4rem;
   font-family: "Roundy Rainbows";
   color: #2c456b;
-  padding-top: 2rem;
+  padding-top: 30%;
   margin-left: 2rem;
 }
 
@@ -62,7 +62,7 @@ html, body {
 .Presentation h2 {
   font-size: 1rem;
   font-weight: 200;
-  margin-top: 7rem;
+  margin-top: 40%;
   font-family: "Roundy Rainbows";
   letter-spacing: 2px;
   color: #2c456b;
@@ -103,7 +103,7 @@ html, body {
 .Aboutme h1 {
   color: rgb(84, 150, 136);
   font-size: 1.4rem;
-  padding-top: 2rem;
+  padding-top: 30%;
   margin-left: 2rem;
   font-family: "Roundy Rainbows";
   letter-spacing: 3px;
@@ -113,16 +113,16 @@ html, body {
 .Aboutme p {
   font-size: 0.7rem;
   font-weight: 600;
-  padding-top: 5rem;
+  padding-top: 30%;
   text-align: center;
   padding-left: 4rem;
-  padding-right: 4rem;
-  padding-bottom: 20%;
+  padding-right: 5rem;
+  padding-bottom: 30%;
 }
 
 .Skills img {
   width: 70%;
-  margin-left: 3rem;
+  margin-left: 3.5rem;
 }
 
 @media screen and (min-width: 1025px) {
@@ -180,7 +180,7 @@ html, body {
   border: solid #3a312a 4px;
   box-shadow: 0 5px 40px rgba(113, 114, 48, 0.5);
   width: 80%;
-  height: 70%;
+  height: 58%;
 }
 
 .proyect h3 {
@@ -263,7 +263,7 @@ html, body {
   font-size: 1.4rem;
   color: rgb(76, 77, 38);
   font-family: "Roundy Rainbows";
-  padding-top: 2rem;
+  padding-top: 20%;
   margin-left: 1.3rem;
   padding-bottom: 5%;
 }
@@ -271,8 +271,9 @@ html, body {
 .Form-wrapper {
   background-color: rgb(250, 250, 229);
   width: 60%;
-  height: 63%;
-  margin-left: 1.3rem;
+  height: 50%;
+  margin-bottom: 13%;
+  margin-left: 16%;
   border: solid rgb(117, 117, 70) 4px;
   border-radius: 20px;
   box-shadow: 0 5px 40px rgba(113, 114, 48, 0.5);
@@ -307,7 +308,7 @@ input:focus {
 button {
   float: right;
   padding: 8px 12px;
-  margin: 1.7rem 1.2rem;
+  margin: 13% 1.2rem;
   border: 2px solid #78788c;
   border-radius: 5px;
   background: 0;
