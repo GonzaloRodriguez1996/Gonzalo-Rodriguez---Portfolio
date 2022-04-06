@@ -13,7 +13,7 @@ const Contactme = () => {
     <div className="Contactme" ref={myRef}>
       <h1 className={`${visible ? "" : ""}`}>Feel free to drop a message!</h1>
 
-      <div className={`${visible ? "Form-wrapper " : "Form-wrapper"}`}>
+      <div className={`${visible ? "Form-wrapper " : "hidden"}`}>
         <Form />
         
       </div>

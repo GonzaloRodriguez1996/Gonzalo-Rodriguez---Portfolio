@@ -9,21 +9,21 @@ const Presentation = () => {
   return (
     <div className="Presentation" ref={myRef}>
       <h1
-        className={`${visible ? "animate__animated animate__slideInLeft" : ""}`}
+        className={`${visible ? "animate__animated animate__slideInLeft" : "hidden"}`}
       >
         HEY THERE! I'M GONZA
       </h1>
       <div
         id="Presentation__img"
         className={`${
-          visible ? "animate__animated animate__fadeIn animate__delay-1s" : ""
+          visible ? "animate__animated animate__fadeIn animate__delay-1s" : "hidden"
         }`}
       >
         <img src={computeron} alt="" width="25%" />
       </div>
       <h2
         className={`${
-          visible ? "animate__animated animate__bounceInDown" : ""
+          visible ? "animate__animated animate__bounceInDown" : "hidden"
         }`}
       >
         I'm an aspiring Front-End developer <br /> eager to broaden my knowledge{" "}

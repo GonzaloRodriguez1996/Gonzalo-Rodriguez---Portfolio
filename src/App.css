@@ -9,15 +9,11 @@
 
 html {
   scroll-snap-type: y mandatory;
-
   overflow-y: scroll;
   max-width: 100%;
   overflow-x: hidden; 
 }
 
-.App{
-
-}
 
 @font-face {
   font-family: "Roundy Rainbows";
