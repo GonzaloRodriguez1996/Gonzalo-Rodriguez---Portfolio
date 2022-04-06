@@ -15,7 +15,7 @@ const Contactme = () => {
 
       <div className={`${visible ? "Form-wrapper " : "Form-wrapper"}`}>
         <Form />
-        <p id="IconsCredits">Icons created by iconos8.es</p>
+        
       </div>
 
       <div className="socialmenu-wrapper">

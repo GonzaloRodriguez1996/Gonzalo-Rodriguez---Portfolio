@@ -2,14 +2,20 @@
 
 * {
   margin: 0 auto;
+  padding: 0;
 }
 
-html {
+
+
+html, body {
+
+}
+
+.App{
   scroll-snap-type: y mandatory;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
-
 
 @font-face {
   font-family: "Roundy Rainbows";
@@ -34,16 +40,16 @@ html {
 
 /*******           PRESENTATION           *******/
 .Presentation {
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   width: 100vw;
   height: 100vh;
   background-color: #e8eaeb;
 }
 .Presentation h1 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-family: "Roundy Rainbows";
   color: #2c456b;
-  padding-top: 6rem;
+  padding-top: 2rem;
   margin-left: 2rem;
 }
 
@@ -81,7 +87,11 @@ html {
     margin-left: 50vw;
     margin-top: -1rem;
   }
+  
 }
+
+
+
 /*******           ABOUT ME              *******/
 .Aboutme {
   scroll-snap-align: center;
@@ -92,8 +102,8 @@ html {
 
 .Aboutme h1 {
   color: rgb(84, 150, 136);
-  font-size: 1.9rem;
-  padding-top: 6rem;
+  font-size: 1.4rem;
+  padding-top: 2rem;
   margin-left: 2rem;
   font-family: "Roundy Rainbows";
   letter-spacing: 3px;
@@ -101,18 +111,18 @@ html {
 }
 
 .Aboutme p {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 600;
   padding-top: 5rem;
   text-align: center;
   padding-left: 4rem;
   padding-right: 4rem;
-  padding-bottom: 14%;
+  padding-bottom: 20%;
 }
 
 .Skills img {
   width: 70%;
-  margin-left: 5rem;
+  margin-left: 3rem;
 }
 
 @media screen and (min-width: 1025px) {
@@ -149,8 +159,8 @@ html {
 /*******            PROYECTS           *******/
 
 .Proyects {
-  scroll-snap-align: center;
-  width: 100vw;
+  scroll-snap-align:center;
+    width: 100vw;
   height: 100vh;
   background-color: #ebb1a6;
 }
@@ -184,12 +194,12 @@ html {
   background-color: #87796f;
   border-radius: 8px;
   border: solid #3a312a;
-  width: 24rem;
-  height: 7rem;
-  margin-top: -2rem;
+  width: 16rem;
+  height: 8.3rem;
+  margin-top: -0.9rem;
 }
 .Description-wrapper p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -199,7 +209,7 @@ html {
 .proyect ul li {
   display: inline-flex;
   margin-left: 20%;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .hidden {
@@ -233,9 +243,14 @@ html {
     margin-left: 25%;
     margin-top: 0.6rem;
   }
+
+  #DragIcon{
+    width: 1%;
+  }
 }
 
 /*******            CONTACT ME          *******/
+
 
 .Contactme {
   scroll-snap-align: center;
@@ -245,10 +260,10 @@ html {
 }
 
 .Contactme h1 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: rgb(76, 77, 38);
   font-family: "Roundy Rainbows";
-  padding-top: 7%;
+  padding-top: 2rem;
   margin-left: 1.3rem;
   padding-bottom: 5%;
 }
@@ -256,7 +271,7 @@ html {
 .Form-wrapper {
   background-color: rgb(250, 250, 229);
   width: 60%;
-  height: 55%;
+  height: 63%;
   margin-left: 1.3rem;
   border: solid rgb(117, 117, 70) 4px;
   border-radius: 20px;
@@ -308,10 +323,10 @@ button:hover {
 
 .Contactme h2 {
   color: rgb(76, 77, 38);
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-left: 49%;
-  padding-top: 8%;
-  padding-bottom: 11%;
+  padding-top: 1%;
+  padding-bottom: 5%;
   font-family: "Roundy Rainbows";
   letter-spacing: 2px;
 }
@@ -324,25 +339,25 @@ button:hover {
 
 .social-menu ul li {
   list-style: none;
-  margin: 0 15px;
+  margin: 6px;
 
-  line-height: 60px;
+  line-height: 20px;
   transition: 0.6s;
 }
 
 .social-menu img {
-  width: 80%;
-  margin-bottom: 10%;
-  padding-top: 0.5rem;
+  width: 100%;
+  margin-bottom: 1%;
+  padding-top: -20rem;
   border-radius: 40px;
 }
 
 .social-menu ul li a {
   position: relative;
   display: block;
-  width: 2.7rem;
-  height: 2.5rem;
-  border: solid rgb(117, 117, 70);
+  width: 1.3rem;
+  height: 1.3rem;
+  border: solid rgb(117, 117, 70) 2px;
   border-radius: 50%;
   background-color: rgb(250, 250, 229);
   text-align: center;
@@ -354,12 +369,6 @@ button:hover {
   color: #ffffff;
 }
 
-#IconsCredits {
-  font-size: smaller;
-  color: #a79e9e;
-  margin-top: 40vh;
-  margin-left: -1.2rem;
-}
 
 @media screen and (min-width: 1025px) {
   .Contactme h1 {
@@ -375,13 +384,36 @@ button:hover {
   .socialmenu-wrapper {
     float: left;
     width: 40rem;
-    margin-top: 12rem;
+    height: 5rem;
+    padding-top: 20rem;
     margin-left: 5rem;
   }
 
   .socialmenu-wrapper h2 {
     font-size: 1.3rem;
   }
+
+  .social-menu{
+    height: 2rem;
+  }
+
+  .social-menu img {
+    width: 100%;
+    margin-bottom: 1%;
+    padding-top: -20rem;
+    border-radius: 40px;
+  }
+  
+  .social-menu ul li {
+    margin: 10px;
+    line-height: 20px;
+  }
+  .social-menu ul li a {
+   
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
   form {
     padding-top: 30px;
     text-align: center;
@@ -392,8 +424,5 @@ button:hover {
     padding: 10px 20px;
     margin: 1.7rem 2.4rem;
   }
-  #IconsCredits {
-    margin-top: 17vh;
-    margin-left: -8.3rem;
-  }
+
 }

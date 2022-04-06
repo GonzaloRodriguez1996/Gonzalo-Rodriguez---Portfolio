@@ -15,7 +15,7 @@ const Proyects = () => {
         }`}
       >
         Swipe through some of my proyects &nbsp; &nbsp;{" "}
-        <img src={DragIcon} width="3%" alt="" />
+        <img src={DragIcon} width="9%" alt="drag icon" id="DragIcon" />
       </h1>
 
       <div
