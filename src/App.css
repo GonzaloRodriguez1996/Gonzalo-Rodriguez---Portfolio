@@ -7,12 +7,12 @@
 
 
 
-html {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+html, body {
+
   max-width: 100%;
   overflow-x: hidden; 
 }
+ 
 
 
 @font-face {
@@ -38,34 +38,35 @@ html {
 
 /*******           PRESENTATION           *******/
 .Presentation {
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   width: 100vw;
   height: 100vh;
-  background-color: #e8eaeb;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 }
 .Presentation h1 {
   font-size: 2rem;
   font-family: "Roundy Rainbows";
   color: #2c456b;
-  padding-top: 40%;
+  padding-top: 20%;
   margin-left: 2rem;
 }
 
-#Presentation__img {
-  margin-top: 4rem;
+.Presentation__img {
   margin-left: 8rem;
-  width: 150%;
+  margin-top: 5rem;
+  width: 180%;
 }
 
 .Presentation h2 {
   font-size: 1.4rem;
   font-weight: 200;
-  margin-top: 20%;
+  margin-top: 27%;
   font-family: "Roundy Rainbows";
   letter-spacing: 2px;
   color: #2c456b;
   margin-left: 4rem;
-  text-align: center;
+  text-align: start;
 }
 
 @media screen and (min-width: 1025px) {
@@ -75,7 +76,7 @@ html {
     letter-spacing: 2px;
   }
 
-  #Presentation__img {
+  .Presentation__img {
     margin-top: 3rem;
     margin-left: 15rem;
     width: 80%;
@@ -93,17 +94,21 @@ html {
 
 /*******           ABOUT ME              *******/
 .Aboutme {
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(195, 241, 231);
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #97D9E1 0%, #D9AFD9 100%);
+
+ 
 }
 
 .Aboutme h1 {
-  color: rgb(84, 150, 136);
-  font-size: 1.4rem;
-  padding-top: 15%;
-  margin-left: 2rem;
+  color: #2c456b;
+  font-size: 2rem;
+  padding-top: 35%;
+  
+  text-align: center;
   font-family: "Roundy Rainbows";
   letter-spacing: 3px;
   font-weight: 100;
@@ -112,23 +117,25 @@ html {
 .Aboutme p {
   font-size: 0.9rem;
   font-weight: 600;
-  padding-top: 30%;
-  text-align: center;
+  padding-top: 13%;
+  text-align: start;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 20%;
 }
 
 .Skills img {
-  width: 70%;
-  margin-left: 3.5rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1025px) {
   .Aboutme h1 {
-    padding-top: 5%;
-    font-size: 3rem;
-    margin-left: 6rem;
+    padding-top: 16%;
+    font-size: 4rem;
+   
   }
 
   .Aboutme p {
@@ -144,8 +151,7 @@ html {
 
   .Skills {
     border-radius: 5px;
-    margin-left: 22rem;
-    margin-top: -12rem;
+      margin-top: -12rem;
     width: 30rem;
     height: 3.6rem;
   }
@@ -159,28 +165,32 @@ html {
 /*******            PROYECTS           *******/
 
 .Proyects {
-  scroll-snap-align:center;
+  scroll-snap-align: end;
     width: 100vw;
-  height: 100vh;
-  background-color: #ebb1a6;
+  height: 130vh;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+
 }
 
 .Proyects h1 {
-  font-size: 1.4rem;
-  color: #b85946;
+  font-size: 1.9rem;
+  color: #2c456b;
   font-family: "Roundy Rainbows";
-  padding-top: 8%;
-  margin-left: 2rem;
+  padding-top: 40%;
+ text-align: center;
   padding-bottom: 30%;
 }
 
 .Proyects-wrapper {
-  background-color: #e9cfbc;
+  background-color: #cdccce;
   border-radius: 50px;
   border: solid #3a312a 4px;
-  box-shadow: 0 5px 40px rgba(113, 114, 48, 0.5);
-  width: 80%;
-  height: 58%;
+  box-shadow: 0 5px 40px #2c456b;
+  width: 88%;
+
+  height: 45%;
 }
 
 .proyect h3 {
@@ -202,7 +212,7 @@ html {
   font-size: 0.7rem;
   font-weight: 500;
   color: rgb(255, 255, 255);
-  text-align: center;
+  text-align: start;
   margin-top: 1rem;
 }
 
@@ -217,9 +227,17 @@ html {
 }
 
 @media screen and (min-width: 1025px) {
+  .Proyects {
+   
+    height: 170vh;
+   
+  
+  
+  }
+ 
   .Proyects h1 {
-    font-size: 2rem;
-    padding-top: 4%;
+    font-size: 2.8rem;
+    padding-top: 30%;
     padding-left: 4rem;
     padding-bottom: 3%;
   }
@@ -253,30 +271,33 @@ html {
 
 
 .Contactme {
-  scroll-snap-align: center;
+ 
   width: 100vw;
   height: 100vh;
-  background-color: rgb(245, 247, 157);
+ 
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #97D9E1 0%, #D9AFD9 100%);
+
 }
 
 .Contactme h1 {
-  font-size: 1.4rem;
-  color: rgb(76, 77, 38);
+  font-size: 1.9rem;
+  color: #2c456b;
   font-family: "Roundy Rainbows";
-  padding-top: 20%;
   margin-left: 1.3rem;
+  padding-top: -20rem;
   padding-bottom: 15%;
 }
 
 .Form-wrapper {
-  background-color: rgb(250, 250, 229);
+  background-color: #cdccce;
   width: 90%;
   height: 52%;
   margin-bottom: 6%;
   
-  border: solid rgb(117, 117, 70) 4px;
+  border: solid #3a312a 4px;
   border-radius: 20px;
-  box-shadow: 0 5px 40px rgba(113, 114, 48, 0.5);
+  box-shadow: 0 5px 40px rgb(44, 31, 37);
 }
 
 form {
@@ -323,7 +344,7 @@ button:hover {
 }
 
 .Contactme h2 {
-  color: rgb(76, 77, 38);
+  color: #2c456b;
   font-size: 1rem;
   margin-left: 49%;
   padding-top: 1%;
@@ -358,9 +379,9 @@ button:hover {
   display: block;
   width: 1.3rem;
   height: 1.3rem;
-  border: solid rgb(117, 117, 70) 2px;
+  border: solid #3a312a 2px;
   border-radius: 50%;
-  background-color: rgb(250, 250, 229);
+  background-color: #cdccce;
   text-align: center;
   transition: 0.6s;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
@@ -372,8 +393,9 @@ button:hover {
 
 
 @media screen and (min-width: 1025px) {
+ 
   .Contactme h1 {
-    padding-top: 3%;
+    
     font-size: 2.4rem;
     padding-left: 6rem;
     padding-bottom: 5% ;
@@ -420,7 +442,7 @@ button:hover {
 
   form {
     padding-top: 30px;
-    text-align: center;
+   
   }
 
   button {

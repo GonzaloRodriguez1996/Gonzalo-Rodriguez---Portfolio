@@ -11,7 +11,7 @@ const Proyects = () => {
     <div className="Proyects" ref={myRef}>
       <h1
         className={`${
-          visible ? "animate__animated animate__slideInLeft" : "hidden"
+          visible ? "" : "hidden"
         }`}
       >
         Swipe through some of my proyects &nbsp; &nbsp;{" "}
@@ -21,7 +21,7 @@ const Proyects = () => {
       <div
         className={`${
           visible
-            ? "Proyects-wrapper animate__animated animate__fadeIn animate__delay-1s"
+            ? "Proyects-wrapper "
             : "hidden"
         }`}
       >

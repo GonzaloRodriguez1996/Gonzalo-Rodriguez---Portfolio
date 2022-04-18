@@ -8,6 +8,7 @@ const Aboutme = () => {
 
   return (
     <div className="Aboutme" ref={myRef}>
+      
       <h1
         className={`${visible ? "animate__animated animate__slideInLeft" : ""}`}
       >
@@ -16,8 +17,8 @@ const Aboutme = () => {
       <div
         className={`${
           visible
-            ? "p-container animate__animated animate__fadeIn animate__delay-1s "
-            : ""
+            ? "p-container animate__animated animate__slideInLeft  "
+            : "p-container"
         }`}
       >
         <p>
@@ -39,8 +40,8 @@ const Aboutme = () => {
       <div
         className={`${
           visible
-            ? "Skills animate__animated animate__fadeIn animate__delay-1s "
-            : "hidden"
+            ? "Skills animate__animated animate__slideInRight "
+            : "Skills"
         }`}
       >
         <img src={SkillsIcons} alt="" />

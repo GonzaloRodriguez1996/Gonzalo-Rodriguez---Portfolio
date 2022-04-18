@@ -11,14 +11,14 @@ const Contactme = () => {
 
   return (
     <div className="Contactme" ref={myRef}>
-      <h1 className={`${visible ? "" : ""}`}>Feel free to drop a message!</h1>
+      <h1 className={`${visible ? "animate__animated animate__fadeIn" : ""}`}>Feel free to drop a message!</h1>
 
-      <div className={`${visible ? "Form-wrapper " : "hidden"}`}>
+      <div className={`${visible ? "Form-wrapper animate__animated animate__fadeIn " : "hidden"}`}>
         <Form />
         
       </div>
 
-      <div className="socialmenu-wrapper">
+      <div className="socialmenu-wrapper animate__animated animate__fadeInRightBig animate__delay-1s">
         <h2>
           ...or you can either contact me <br /> through my socials
         </h2>
