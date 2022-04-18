@@ -2,7 +2,6 @@ import "../App.css";
 import "animate.css";
 import computeron from "../images/computeron.png";
 import { useInView } from "react-intersection-observer";
-import Navigation from "./navigation";
 
 
 const Presentation = () => {
