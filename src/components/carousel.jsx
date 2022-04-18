@@ -27,10 +27,9 @@ export default class ProyectCarousel extends Component {
             <img src={MassageProyect} alt="" width="40%" />
             <div className="Description-wrapper">
               <p>
-                This is a website that I created to advertise my sister's
-                professional massage services. I took advantage of the request
-                to get a little more familiarized with Bootstrap classes. It
-                includes a sliding carousel, an infedormative section and a
+                A website I created to advertise my sister's
+                professional massage services. I found it useful to get to know bootstrap classes. It
+                includes a sliding carousel, an informative section and a
                 contact form.
               </p>
             </div>

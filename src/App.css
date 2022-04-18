@@ -167,7 +167,7 @@ html, body {
 .Proyects {
   scroll-snap-align: end;
     width: 100vw;
-  height: 130vh;
+  height: 110vh;
   background-color: #D9AFD9;
   background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 
@@ -178,9 +178,9 @@ html, body {
   font-size: 1.9rem;
   color: #2c456b;
   font-family: "Roundy Rainbows";
-  padding-top: 40%;
+  padding-top: 25%;
  text-align: center;
-  padding-bottom: 30%;
+  padding-bottom: 10%;
 }
 
 .Proyects-wrapper {
@@ -189,8 +189,7 @@ html, body {
   border: solid #3a312a 4px;
   box-shadow: 0 5px 40px #2c456b;
   width: 88%;
-
-  height: 45%;
+  height: 58%;
 }
 
 .proyect h3 {
@@ -205,11 +204,11 @@ html, body {
   border-radius: 8px;
   border: solid #3a312a;
   width: 16rem;
-  height: 8.3rem;
+  height: 9rem;
   margin-top: -0.9rem;
 }
 .Description-wrapper p {
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 500;
   color: rgb(255, 255, 255);
   text-align: start;
@@ -284,7 +283,7 @@ html, body {
   font-size: 1.9rem;
   color: #2c456b;
   font-family: "Roundy Rainbows";
-  margin-left: 1.3rem;
+  text-align: center;
   padding-top: -20rem;
   padding-bottom: 15%;
 }
@@ -293,7 +292,7 @@ html, body {
   background-color: #cdccce;
   width: 90%;
   height: 52%;
-  margin-bottom: 6%;
+  margin-bottom: 20%;
   
   border: solid #413730 4px;
   border-radius: 20px;
@@ -346,23 +345,29 @@ button:hover {
 .Contactme h2 {
   color: #2c456b;
   font-size: 1rem;
-  margin-left: 49%;
+  text-align: center;
   padding-top: 1%;
-  padding-bottom: 8%;
+  padding-bottom: 12%;
   font-family: "Roundy Rainbows";
   letter-spacing: 2px;
 }
+
+.socialmenu-wrapper{
+  
+  margin-top: -1rem;
+  height: 1%;
+}
 .social-menu ul {
-  padding: 0px;
-  margin-left: 70%;
+  
+  margin-left: 50vw;
   transform: translate(-50%, -50%);
   display: flex;
 }
 
 .social-menu ul li {
   list-style: none;
-  margin: 6px;
-  line-height: 20px;
+  margin: 1rem;
+    line-height: 20px;
   transition: 0.6s;
 }
 
